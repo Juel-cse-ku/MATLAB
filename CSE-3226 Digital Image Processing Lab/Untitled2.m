@@ -1,0 +1,24 @@
+m = imreadC('E:\Academic\3rd Year 2nd Term\CSE-3226 Digital Image Processing Lab\j.jpg');
+%imshow(m);
+%figure, imshow(m-m);
+%figure,
+%imtool(m);
+% disp(m);
+ [x y z] = size(m);
+%disp(x);
+ %disp(y);
+ %disp(z);
+ r = double(m(:,:,1));
+ %imshow(r);
+ s = m(:,:,2);
+ %figure, imshow(s);
+ t = m(:,:,3);
+ %figure, imshow(t);
+ meanr= mean(r(:));
+ %disp(meanr);
+ stdo= std(r(:));
+ %disp(stdo);
+ a = rgb2gray(m);
+ %figure, imshow(a);
+ b= imresize(m,[10,10]);
+ %figure, imshow(b);

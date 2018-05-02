@@ -1,0 +1,109 @@
+clc;
+%Original Image
+main=imread('Fig0323.tif');
+[row1,col1,k1]=size(main);
+pixel_main=row1*col1;
+
+color_value_main=zeros(256,1);
+pr_main=zeros(256,1);
+count1=0;
+
+%Original Image Histogram
+for i=0:256
+    for j=1:row1
+        for k=1:col1
+            if(main(j,k)==i)
+                count1 = count1+1;
+            end
+        end
+    end
+    %nk
+    color_value_main(i+1) = count1;
+    pr_main(i+1)= color_value_main(i+1);
+    pr_main(i+1)=(pr_main(i+1))/pixel_main;
+    count1=0;
+end
+
+%Reference image
+ref=imread('Fig0320.tif');
+[row2,col2,k2]=size(ref);
+pixel_ref=row2*col2;
+
+color_value_ref=zeros(256,1);
+pr_ref=zeros(256,1);
+count2=0;
+
+%Referance Image Histogram
+for i=0:256
+    for j=1:row2
+        for k=1:col2
+            if(ref(j,k)==i)
+                count2 = count2+1;
+            end
+        end
+    end
+    %nk
+    color_value_ref(i+1) = count2;
+    pr_ref(i+1)= color_value_ref(i+1);
+   pr_ref(i+1)=(pr_ref(i+1))/pixel_ref;
+    count2=0;
+end
+
+equalized = zeros(256,1);
+% s = T(r) Equalization
+for i=1:256
+    for j=1:i
+        equalized(i)=equalized(i)+ pr_main(j);
+    end
+       equalized(i)=round(equalized(i)*255);
+end
+
+matching  = zeros(256,1);
+%G(z)=s
+for i=1:256
+    for j=1:i
+        matching(i)=matching(i)+ pr_ref(j);
+    end
+       matching(i)=round(matching(i)*255);
+end
+% s and G(z) Matching
+image = equalized;
+for i = 1:256
+    %Finding minimum difference
+    for j = 1:256
+       minimum = min(abs(equalized(i)-matching(j)));
+    end
+    %Mapping s = z
+    for k = 1:256
+        if(abs(equalized(i)-matching(k)) == minimum)
+            image(i) = k;
+        end
+    end
+end
+
+% r = s = z
+for i = 1:row1
+    for j = 1:col1
+        Newimage(i,j)= image(main(i,j)+1);
+    end
+end
+Newimage = uint8(Newimage);
+
+subplot(2,3,1);
+imshow(main);title('Original image');
+subplot(2,3,2);
+imhist(main);title('Original histogram');
+subplot(2,3,3);
+imhist(ref);title('Target histogram');
+subplot(2,3,4);
+imshow(Newimage);title('Matched image');
+subplot(2,3,5);
+imhist(Newimage);title('Matched histogram');
+imwrite(Newimage,'matching.jpg','jpg');
+
+
+
+
+
+
+

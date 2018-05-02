@@ -1,0 +1,11 @@
+function[a,f]=DiffPic(i,p);
+i=imread('m.jpg');
+p=imread('Masum.jpg');
+a=i*4;
+f=p/4;
+imshow(i);
+figure,imshow(p);
+figure,imshow(a);
+figure,imshow(f);
+imwrite(a,'updateM.jpg','jpg');
+imwrite(f,'UpdateMasum.jpg','jpg');

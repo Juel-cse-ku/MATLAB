@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<!-- saved from url=(0111)http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&token=4e6fb65df2a9ec466e77a9a9bb721f0c -->
+<html lang="en" dir="ltr" class="chrome chrome56"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="referrer" content="no-referrer"><meta name="robots" content="noindex,nofollow"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><link rel="icon" href="http://localhost/phpmyadmin/favicon.ico" type="image/x-icon"><link rel="shortcut icon" href="http://localhost/phpmyadmin/favicon.ico" type="image/x-icon"><link rel="stylesheet" type="text/css" href="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/jquery-ui-1.11.4.css.download"><link rel="stylesheet" type="text/css" href="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/codemirror.css.download"><link rel="stylesheet" type="text/css" href="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/show-hint.css.download"><link rel="stylesheet" type="text/css" href="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/lint.css.download"><link rel="stylesheet" type="text/css" href="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/phpmyadmin.css.php.download"><link rel="stylesheet" type="text/css" href="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/printview.css.download" media="print" id="printcss"><title>localhost / Local Databases / primary_school_management | phpMyAdmin 4.6.4</title><script data-cfasync="false" type="text/javascript" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/whitelist.php.download"></script><script data-cfasync="false" type="text/javascript" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/get_scripts.js.php.download"></script><script data-cfasync="false" type="text/javascript" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/get_scripts.js.php(1).download"></script><script data-cfasync="false" type="text/javascript" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/get_scripts.js.php(2).download"></script><script data-cfasync="false" type="text/javascript" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/get_scripts.js.php(3).download"></script><script data-cfasync="false" type="text/javascript" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/messages.php.download"></script><script data-cfasync="false" type="text/javascript" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/get_image.js.php.download"></script><script data-cfasync="false" type="text/javascript">// <![CDATA[
+PMA_commonParams.setAll({common_query:"?token=4e6fb65df2a9ec466e77a9a9bb721f0c",opendb_url:"db_structure.php",safari_browser:"0",collation_connection:"utf8mb4_unicode_ci",lang:"en",server:"1",table:"",db:"primary_school_management",token:"4e6fb65df2a9ec466e77a9a9bb721f0c",text_dir:"ltr",show_databases_navigation_as_tree:"1",pma_text_default_tab:"Browse",pma_text_left_default_tab:"Structure",pma_text_left_default_tab2:"",LimitChars:"50",pftext:"",confirm:"1",LoginCookieValidity:"1440",logged_in:"1",PMA_VERSION:"4.6.4",auth_type:"cookie"});
+ConsoleEnterExecutes=false
+AJAX.scriptHandler.add("jquery/jquery-2.1.4.min.js",0).add("whitelist.php?lang=en&amp;db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c",1).add("sprintf.js",1).add("ajax.js",0).add("keyhandler.js",1).add("jquery/jquery-ui-1.11.4.min.js",0).add("jquery/jquery.cookie.js",0).add("jquery/jquery.mousewheel.js",0).add("jquery/jquery.event.drag-2.2.js",0).add("jquery/jquery-ui-timepicker-addon.js",0).add("jquery/jquery.ba-hashchange-1.3.js",0).add("jquery/jquery.debounce-1.0.5.js",0).add("menu-resizer.js",1).add("cross_framing_protection.js",0).add("rte.js",1).add("tracekit/tracekit.js",1).add("error_report.js",1).add("messages.php?lang=en&amp;db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c",0).add("get_image.js.php?theme=pmahomme",0).add("config.js",1).add("doclinks.js",1).add("functions.js",1).add("navigation.js",1).add("indexes.js",1).add("common.js",1).add("page_settings.js",1).add("db_structure.js",1).add("tbl_change.js",1).add("codemirror/lib/codemirror.js",0).add("codemirror/mode/sql/sql.js",0).add("codemirror/addon/runmode/runmode.js",0).add("codemirror/addon/hint/show-hint.js",0).add("codemirror/addon/hint/sql-hint.js",0).add("codemirror/addon/lint/lint.js",0).add("codemirror/addon/lint/sql-lint.js",0).add("console.js",1);
+$(function() {AJAX.fireOnload("whitelist.php?lang=en&amp;db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c");AJAX.fireOnload("sprintf.js");AJAX.fireOnload("keyhandler.js");AJAX.fireOnload("menu-resizer.js");AJAX.fireOnload("rte.js");AJAX.fireOnload("tracekit/tracekit.js");AJAX.fireOnload("error_report.js");AJAX.fireOnload("config.js");AJAX.fireOnload("doclinks.js");AJAX.fireOnload("functions.js");AJAX.fireOnload("navigation.js");AJAX.fireOnload("indexes.js");AJAX.fireOnload("common.js");AJAX.fireOnload("page_settings.js");AJAX.fireOnload("db_structure.js");AJAX.fireOnload("tbl_change.js");AJAX.fireOnload("console.js");});
+// ]]></script><noscript>&lt;style&gt;html{display:block}&lt;/style&gt;</noscript><script type="text/javascript" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/get_scripts.js.php(4).download"></script><script type="text/javascript" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/get_scripts.js.php(5).download"></script><script type="text/javascript" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/get_scripts.js.php(6).download"></script></head><body style="margin-bottom: 18px; padding-top: 59px;"><div id="pma_navigation"><div id="pma_navigation_resizer"></div><div id="pma_navigation_collapser">←</div><div id="pma_navigation_content"><div id="pma_navigation_header"><a class="hide navigation_url" href="http://localhost/phpmyadmin/navigation.php?ajax_request=1&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c"></a><!-- LOGO START -->
+<div id="pmalogo">
+            <a href="http://localhost/phpmyadmin/index.php?token=4e6fb65df2a9ec466e77a9a9bb721f0c">
+        <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/logo_left.png.download" alt="phpMyAdmin" id="imgpmalogo">            </a>
+    </div>
+<!-- LOGO END --><!-- LINKS START --><div id="navipanellinks"><a href="http://localhost/phpmyadmin/index.php?token=4e6fb65df2a9ec466e77a9a9bb721f0c" title="Home"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Home" alt="Home" class="icon ic_b_home"></a><a href="http://localhost/phpmyadmin/logout.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="disableAjax" title="Log out"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Log out" alt="Log out" class="icon ic_s_loggoff"></a><a href="http://localhost/phpmyadmin/doc/html/index.html" target="documentation" title="phpMyAdmin documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="phpMyAdmin documentation" alt="phpMyAdmin documentation" class="icon ic_b_docs"></a><a href="http://localhost/phpmyadmin/url.php?url=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F5.7%2Fen%2Findex.html" target="mysql_doc" title="Documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_sqlhelp"></a><a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="pma_navigation_settings_icon" title="Navigation panel settings"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Navigation panel settings" alt="Navigation panel settings" class="icon ic_s_cog"></a><a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="pma_navigation_reload" title="Reload navigation panel"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Reload navigation panel" alt="Reload navigation panel" class="icon ic_s_reload"></a></div><!-- LINKS ENDS --><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/ajax_clock_small.gif.download" title="Loading…" alt="Loading…" style="visibility: hidden; display:none" class="throbber"></div><div id="pma_navigation_tree" class="list_container synced highlight" style="height: 517px;"><div class="pma_quick_warp"><div class="drop_list"><span title="Recent tables" class="drop_button">Recent</span><ul id="pma_recent_list"><li class="warp_link">There are no recent tables.</li></ul></div><div class="drop_list"><span title="Favorite tables" class="drop_button">Favorites</span><ul id="pma_favorite_list"><li class="warp_link">There are no favorite tables.</li></ul></div><div class="clearfloat"></div></div><div class="clearfloat"></div><ul><!-- CONTROLS START --><li id="navigation_controls_outer" class=""><div id="navigation_controls"><a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="pma_navigation_collapse" title="Collapse all"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/s_collapseall.png.download" title="Collapse all" alt="Collapse all"></a><a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="pma_navigation_sync" title="Unlink from main panel"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Unlink from main panel" alt="Unlink from main panel" class="icon ic_s_link"></a></div></li><!-- CONTROLS ENDS --></ul><div id="pma_navigation_tree_content" style="height: 468px;"><ul><li class="first new_database italics"><div class="block"><i class="first"></i></div><div class="block "><a href="http://localhost/phpmyadmin/server_databases.php?server=1&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_b_newdb"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/server_databases.php?server=1&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" title="">New</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#"><span class="hide aPath">cm9vdA==.Y3Nla3Vfd3BsXzIwMTdfZWR1Y2F0aW9u</span><span class="hide vPath">cm9vdA==.Y3Nla3Vfd3BsXzIwMTdfZWR1Y2F0aW9u</span><span class="hide pos">0</span><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=cseku_wpl_2017_education&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=cseku_wpl_2017_education&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" title="Structure">cseku_wpl_2017_education</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#"><span class="hide aPath">cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h</span><span class="hide vPath">cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h</span><span class="hide pos">0</span><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=information_schema&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=information_schema&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" title="Structure">information_schema</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#"><span class="hide aPath">cm9vdA==.bXlzcWw=</span><span class="hide vPath">cm9vdA==.bXlzcWw=</span><span class="hide pos">0</span><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=mysql&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=mysql&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" title="Structure">mysql</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#"><span class="hide aPath">cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h</span><span class="hide vPath">cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h</span><span class="hide pos">0</span><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=performance_schema&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=performance_schema&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" title="Structure">performance_schema</a><div class="clearfloat"></div></li><li class="database selected"><div class="block"><i></i><b></b><a class="expander loaded" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#"><span class="hide aPath">cm9vdA==.cHJpbWFyeV9zY2hvb2xfbWFuYWdlbWVudA==</span><span class="hide vPath">cm9vdA==.cHJpbWFyeV9zY2hvb2xfbWFuYWdlbWVudA==</span><span class="hide pos">0</span><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_minus" style="display: inline;"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" title="Structure">primary_school_management</a><div class="clearfloat"></div><div class="list_container" style="display: block;"><ul></ul></div></li><li class="last database"><div class="block"><i></i><a class="expander" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#"><span class="hide aPath">cm9vdA==.c3lz</span><span class="hide vPath">cm9vdA==.c3lz</span><span class="hide pos">0</span><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=sys&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=sys&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" title="Structure">sys</a><div class="clearfloat"></div></li></ul></div></div><div id="pma_navi_settings_container"><div id="pma_navigation_settings"><div class="page_settings"><form method="post" action="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;table=&amp;server=1&amp;target=&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="config-form disableAjax"><input type="hidden" name="tab_hash" value=""><input type="hidden" name="token" value="4e6fb65df2a9ec466e77a9a9bb721f0c">
+<input type="hidden" name="submit_save" value="Navi_panel"><ul class="tabs">
+
+                                    <li class="active">
+
+            <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#Navi_panel">
+            Navigation panel            </a>
+        </li>
+                                <li>
+
+            <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#Navi_tree">
+            Navigation tree            </a>
+        </li>
+                                <li>
+
+            <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#Navi_databases">
+            Databases            </a>
+        </li>
+                                <li>
+
+            <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#Navi_tables">
+            Tables            </a>
+        </li>
+            </ul><br clear="right"><div class="tabs_contents"><fieldset class="optbox" id="Navi_panel" style="display: block;"><legend>Navigation panel</legend><p>Customize appearance of the navigation panel.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="ShowDatabasesNavigationAsTree">Show databases navigation as tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ShowDatabasesNavigationAsTree" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>In the navigation panel, replaces the database tree with a selector</small></th><td><span class="checkbox"><input type="checkbox" name="ShowDatabasesNavigationAsTree" id="ShowDatabasesNavigationAsTree" checked="checked"></span><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#ShowDatabasesNavigationAsTree" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLinkWithMainPanel">Link with main panel</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLinkWithMainPanel" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Link with main panel by highlighting the current database or table.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationLinkWithMainPanel" id="NavigationLinkWithMainPanel" checked="checked"></span><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationLinkWithMainPanel" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationDisplayLogo">Display logo</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationDisplayLogo" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Show logo in navigation panel.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationDisplayLogo" id="NavigationDisplayLogo" checked="checked"></span><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationDisplayLogo" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLogoLink">Logo link URL</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLogoLink" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>URL where logo in the navigation panel will point to.</small></th><td><input type="text" size="40" name="NavigationLogoLink" id="NavigationLogoLink" value="index.php"><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationLogoLink" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLogoLinkWindow">Logo link target</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLogoLinkWindow" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Open the linked page in the main window (<kbd>main</kbd>) or in a new one (<kbd>new</kbd>).</small></th><td><select name="NavigationLogoLinkWindow" id="NavigationLogoLinkWindow"><option value="main" selected="selected">main</option><option value="new">new</option></select><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationLogoLinkWindow" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreePointerEnable">Enable highlighting</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreePointerEnable" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Highlight server under the mouse cursor.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreePointerEnable" id="NavigationTreePointerEnable" checked="checked"></span><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreePointerEnable" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="FirstLevelNavigationItems">Maximum items on first level</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_FirstLevelNavigationItems" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>The number of items that can be displayed on each page on the first level of the navigation tree.</small></th><td><input type="number" name="FirstLevelNavigationItems" id="FirstLevelNavigationItems" value="100"><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#FirstLevelNavigationItems" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDisplayItemFilterMinimum">Minimum number of items to display the filter box</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDisplayItemFilterMinimum" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Defines the minimum number of items (tables, views, routines and events) to display a filter box.</small></th><td><input type="number" name="NavigationTreeDisplayItemFilterMinimum" id="NavigationTreeDisplayItemFilterMinimum" value="30"><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeDisplayItemFilterMinimum" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NumRecentTables">Recently used tables</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NumRecentTables" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Maximum number of recently used tables; set 0 to disable.</small></th><td><input type="number" name="NumRecentTables" id="NumRecentTables" value="10"><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NumRecentTables" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NumFavoriteTables">Favorite tables</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NumFavoriteTables" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Maximum number of favorite tables; set 0 to disable.</small></th><td><input type="number" name="NumFavoriteTables" id="NumFavoriteTables" value="10"><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NumFavoriteTables" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset><fieldset class="optbox" id="Navi_tree" style="display: none;"><legend>Navigation tree</legend><p>Customize the navigation tree.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="MaxNavigationItems">Maximum items in branch</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_MaxNavigationItems" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>The number of items that can be displayed on each page of the navigation tree.</small></th><td><input type="number" name="MaxNavigationItems" id="MaxNavigationItems" value="50"><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#MaxNavigationItems" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeEnableGrouping">Group items in the tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeEnableGrouping" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Group items in the navigation tree (determined by the separator defined in the Databases and Tables tabs above).</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeEnableGrouping" id="NavigationTreeEnableGrouping" checked="checked"></span><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeEnableGrouping" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeEnableExpansion">Enable navigation tree expansion</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeEnableExpansion" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to offer the possibility of tree expansion in the navigation panel.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeEnableExpansion" id="NavigationTreeEnableExpansion" checked="checked"></span><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeEnableExpansion" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowTables">Show tables in tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowTables" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to show tables under database in the navigation tree</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowTables" id="NavigationTreeShowTables" checked="checked"></span><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeShowTables" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowViews">Show views in tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowViews" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to show views under database in the navigation tree</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowViews" id="NavigationTreeShowViews" checked="checked"></span><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeShowViews" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowFunctions">Show functions in tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowFunctions" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to show functions under database in the navigation tree</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowFunctions" id="NavigationTreeShowFunctions" checked="checked"></span><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeShowFunctions" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowProcedures">Show procedures in tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowProcedures" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to show procedures under database in the navigation tree</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowProcedures" id="NavigationTreeShowProcedures" checked="checked"></span><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeShowProcedures" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowEvents">Show events in tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowEvents" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to show events under database in the navigation tree</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowEvents" id="NavigationTreeShowEvents" checked="checked"></span><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeShowEvents" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset><fieldset class="optbox" id="Navi_databases" style="display: none;"><legend>Databases</legend><p>Databases display options.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="NavigationTreeDisplayDbFilterMinimum">Minimum number of databases to display the database filter box</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDisplayDbFilterMinimum" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><input type="number" name="NavigationTreeDisplayDbFilterMinimum" id="NavigationTreeDisplayDbFilterMinimum" value="30"><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeDisplayDbFilterMinimum" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDbSeparator">Database tree separator</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDbSeparator" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>String that separates databases into different tree levels.</small></th><td><input type="text" size="25" name="NavigationTreeDbSeparator" id="NavigationTreeDbSeparator" value="_"><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeDbSeparator" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset><fieldset class="optbox" id="Navi_tables" style="display: none;"><legend>Tables</legend><p>Tables display options.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="NavigationTreeDefaultTabTable">Target for quick access icon</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDefaultTabTable" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><select name="NavigationTreeDefaultTabTable" id="NavigationTreeDefaultTabTable"><option value="structure" selected="selected">Structure</option><option value="sql">SQL</option><option value="search">Search</option><option value="insert">Insert</option><option value="browse">Browse</option></select><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeDefaultTabTable" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDefaultTabTable2">Target for second quick access icon</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDefaultTabTable2" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><select name="NavigationTreeDefaultTabTable2" id="NavigationTreeDefaultTabTable2"><option value="" selected="selected"></option><option value="structure">Structure</option><option value="sql">SQL</option><option value="search">Search</option><option value="insert">Insert</option><option value="browse">Browse</option></select><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeDefaultTabTable2" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeTableSeparator">Table tree separator</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeTableSeparator" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>String that separates tables into different tree levels.</small></th><td><input type="text" size="25" name="NavigationTreeTableSeparator" id="NavigationTreeTableSeparator" value="__"><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeTableSeparator" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeTableLevel">Maximum table tree depth</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeTableLevel" target="documentation"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><input type="number" name="NavigationTreeTableLevel" id="NavigationTreeTableLevel" value="1"><a class="restore-default" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#NavigationTreeTableLevel" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset></div>
+</form>
+<script type="text/javascript">
+if (typeof configInlineParams === "undefined" || !Array.isArray(configInlineParams)) configInlineParams = [];
+configInlineParams.push(function() {
+validateField('FirstLevelNavigationItems', 'PMA_validatePositiveNumber', true);
+validateField('NumRecentTables', 'PMA_validateNonNegativeNumber', true);
+validateField('NumFavoriteTables', 'PMA_validateNonNegativeNumber', true);
+validateField('MaxNavigationItems', 'PMA_validatePositiveNumber', true);
+validateField('NavigationTreeTableLevel', 'PMA_validatePositiveNumber', true);
+$.extend(defaultValues, {
+	'ShowDatabasesNavigationAsTree': true,
+	'NavigationLinkWithMainPanel': true,
+	'NavigationDisplayLogo': true,
+	'NavigationLogoLink': 'index.php',
+	'NavigationLogoLinkWindow': ['main'],
+	'NavigationTreePointerEnable': true,
+	'FirstLevelNavigationItems': '100',
+	'NavigationTreeDisplayItemFilterMinimum': '30',
+	'NumRecentTables': '10',
+	'NumFavoriteTables': '10',
+	'MaxNavigationItems': '50',
+	'NavigationTreeEnableGrouping': true,
+	'NavigationTreeEnableExpansion': true,
+	'NavigationTreeShowTables': true,
+	'NavigationTreeShowViews': true,
+	'NavigationTreeShowFunctions': true,
+	'NavigationTreeShowProcedures': true,
+	'NavigationTreeShowEvents': true,
+	'NavigationTreeDisplayDbFilterMinimum': '30',
+	'NavigationTreeDbSeparator': '_',
+	'NavigationTreeDefaultTabTable': ['structure'],
+	'NavigationTreeDefaultTabTable2': [''],
+	'NavigationTreeTableSeparator': '__',
+	'NavigationTreeTableLevel': '1'});
+});
+if (typeof configScriptLoaded !== "undefined" && configInlineParams) loadInlineConfig();
+</script></div></div></div></div><div class="pma_drop_handler">Drop files here</div><div class="pma_sql_import_status"><h2>SQL upload ( <span class="pma_import_count">0</span> ) <span class="close">x</span><span class="minimize">-</span></h2><div></div></div></div><div id="prefs_autoload" class="notice print_ignore" style="display:none">
+    <form action="http://localhost/phpmyadmin/prefs_manage.php" method="post" class="disableAjax">
+        <input type="hidden" name="token" value="4e6fb65df2a9ec466e77a9a9bb721f0c">        <input type="hidden" name="json" value="">
+        <input type="hidden" name="submit_import" value="1">
+        <input type="hidden" name="return_url" value="db_structure.php?server=1&amp;db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c">
+        Your browser has phpMyAdmin configuration for this domain. Would you like to import it for current session?        <br>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#yes">Yes</a>
+        / <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#no">No</a>
+    </form>
+</div><div id="floating_menubar" style="margin-left: 243px; left: 0px; position: fixed; top: 0px; width: 100%; z-index: 99;"><div id="serverinfo"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_host item"><a href="http://localhost/phpmyadmin/index.php?token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="item">Server: Local Databases</a><span class="separator item">&nbsp;»</span><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="" alt="" class="icon ic_s_db item"><a href="http://localhost/phpmyadmin/db_structure.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="item">Database: primary_school_management</a><div class="clearfloat"></div></div><div id="topmenucontainer" class="menucontainer"><ul id="topmenu" class="resizable-menu"><li>
+
+            <a href="http://localhost/phpmyadmin/db_structure.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="tab">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Structure" alt="Structure" class="icon ic_b_props">&nbsp;Structure            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_sql.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="tab">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="SQL" alt="SQL" class="icon ic_b_sql">&nbsp;SQL            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_search.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="tab">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Search" alt="Search" class="icon ic_b_search">&nbsp;Search            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_qbe.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="tab">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Query" alt="Query" class="icon ic_s_db">&nbsp;Query            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_export.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="tab">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Export" alt="Export" class="icon ic_b_export">&nbsp;Export            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_import.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="tab">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Import" alt="Import" class="icon ic_b_import">&nbsp;Import            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_operations.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="tab">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Operations" alt="Operations" class="icon ic_b_tblops">&nbsp;Operations            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/server_privileges.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c&amp;checkprivsdb=primary_school_management&amp;viewing_mode=db" class="tab">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Privileges" alt="Privileges" class="icon ic_s_rights">&nbsp;Privileges            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_routines.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="tab">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Routines" alt="Routines" class="icon ic_b_routines">&nbsp;Routines            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_events.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="tab">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Events" alt="Events" class="icon ic_b_events">&nbsp;Events            </a>
+        </li>
+
+
+<li class="submenu shown active"><a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" class="nowrap tabactive"><img alt="" title="" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" class="icon ic_b_more">More</a><ul class="notonly"><li>
+
+            <a href="http://localhost/phpmyadmin/db_triggers.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" class="tab">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Triggers" alt="Triggers" class="icon ic_b_triggers">&nbsp;Triggers            </a>
+        </li><li class="active">
+
+            <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" id="designer_tab" class="tabactive">
+            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Designer" alt="Designer" class="icon ic_b_relations">&nbsp;Designer            </a>
+        </li></ul></li><div class="clearfloat"></div></ul>
+</div>
+</div>
+<span id="page_nav_icons"><span id="lock_page_icon"></span><span id="page_settings_icon" style="display: none;"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Page-related settings" alt="Page-related settings" class="icon ic_s_cog"></span><a id="goto_pagetop" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Click on the bar to scroll to top of page" alt="Click on the bar to scroll to top of page" class="icon ic_s_top"></a></span><div id="pma_console_container"><div id="pma_console"><div class="toolbar collapsed"><div class="switch_button console_switch"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="SQL Query Console" alt="SQL Query Console" class="icon ic_console"><span>Console</span></div><div class="button clear"><span>Clear</span></div><div class="button history"><span>History</span></div><div class="button options"><span>Options</span></div><div class="button debug hide"><span>Debug SQL</span></div></div><div class="content" style="height: 92px; margin-bottom: -98px; display: none;"><div class="console_message_container"><div class="message welcome binded"><span><span id="instructions-0" style="display: inline;">Press Ctrl+Enter to execute query</span><span class="hide" id="instructions-1" style="display: none;">Press Enter to execute query</span></span></div></div><div class="query_input"><span class="console_query_input"><div class="CodeMirror cm-s-pma CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 16px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 16px; margin-bottom: -17px; border-right-width: 13px; min-height: 15px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 0px; top: 0px; height: 15px;">&nbsp;</div></div><div class="CodeMirror-code"><pre class=""><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 13px; width: 1px; top: 15px;"></div><div class="CodeMirror-gutters" style="height: 30px;"><div class="CodeMirror-gutter CodeMirror-lint-markers"></div></div></div></div></span></div></div><div class="mid_layer"></div><div class="card ungrouped" id="debug_console"><div class="toolbar"><div class="button order order_asc active"><span>ascending</span></div><div class="button order order_desc"><span>descending</span></div><div class="text"><span>Order:</span></div><div class="switch_button"><span>Debug SQL</span></div><div class="button order_by sort_count"><span>Count</span></div><div class="button order_by sort_exec active"><span>Execution order</span></div><div class="button order_by sort_time"><span>Time taken</span></div><div class="text"><span>Order by:</span></div><div class="button group_queries"><span>Group queries</span></div><div class="button ungroup_queries"><span>Ungroup queries</span></div></div><div class="content debug" style="height: 92px;"><div class="message welcome binded">Some error occurred while getting SQL debug info.</div><div class="debugLog"></div></div><div class="templates"><div class="debug_query action_content"><span class="action collapse">Collapse</span> <span class="action expand">Expand</span> <span class="action dbg_show_trace">Show trace</span> <span class="action dbg_hide_trace">Hide trace</span> <span class="text count hide">Count: <span></span></span><span class="text time">Time taken: <span></span></span></div></div></div><div class="card" id="pma_console_options"><div class="toolbar"><div class="switch_button"><span>Options</span></div><div class="button default"><span>Set default</span></div></div><div class="content" style="height: 92px;"><label><input type="checkbox" name="always_expand">Always expand query messages</label><br><label><input type="checkbox" name="start_history">Show query history at start</label><br><label><input type="checkbox" name="current_query">Show current browsing query</label><br><label><input type="checkbox" name="enter_executes">Execute queries on Enter and insert new line with Shift + Enter. To make this permanent, view settings.</label><br><label><input type="checkbox" name="dark_theme">Switch to dark theme</label><br></div></div><div class="templates"><div class="query_actions"><span class="action collapse">Collapse</span> <span class="action expand">Expand</span> <span class="action requery">Requery</span> <span class="action edit">Edit</span> <span class="action explain">Explain</span> <span class="action profiling">Profiling</span> <span class="text failed">Query failed</span> <span class="text targetdb">Database: <span></span></span> <span class="text query_time">Queried time: <span></span></span> </div></div></div></div><div id="page_content" style="margin-left: 3px;"><div id="loading_parent"></div><!-- Do not expand HTML here, invisible characters will make javascript crash -->
+<div id="script_server" class="hide">1</div>
+<div id="script_db" class="hide">primary_school_management</div>
+<div id="script_token" class="hide">4e6fb65df2a9ec466e77a9a9bb721f0c</div>
+<div id="script_tables" class="hide">{"j_tabs":{"primary_school_management.assignedclasses":1,"primary_school_management.classsubject":1,"primary_school_management.login":1,"primary_school_management.marks":1,"primary_school_management.result":1,"primary_school_management.student":1,"primary_school_management.teacher":1},"h_tabs":{"primary_school_management.assignedclasses":1,"primary_school_management.classsubject":1,"primary_school_management.login":1,"primary_school_management.marks":1,"primary_school_management.result":1,"primary_school_management.student":1,"primary_school_management.teacher":1}}</div>
+<div id="script_contr" class="hide">[{"":{"primary_school_management.login":{"TeacherID":["primary_school_management.teacher","ID"]}}},{"":{"primary_school_management.marks":{"ClassSubjectID":["primary_school_management.classsubject","ID"]}}},{"":{"primary_school_management.marks":{"StudentID":["primary_school_management.student","ID"]}}},{"":{"primary_school_management.result":{"MarksID":["primary_school_management.marks","ID"]}}},{"":{"primary_school_management.teacher":{"ClassSubjectID":["primary_school_management.classsubject","ID"]}}}]</div>
+<div id="script_display_field" class="hide">[]</div>
+<div id="script_display_page" class="hide"></div>
+<div id="pmd_tables_enabled" class="hide"></div>    <div id="name-panel" style="overflow:hidden">
+        <span id="page_name" style="border:none">Untitled</span>
+        <span id="saved_state" style="border:none">*</span>
+    </div>
+<div class="pmd_header side-menu" id="side_menu">
+    <a class="M_butt" id="key_Show_left_menu" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#">
+        <img title="Show/Hide tables list" alt="v" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/downarrow2_m.png.download" data-down="./themes/pmahomme/img/pmd/downarrow2_m.png" data-up="./themes/pmahomme/img/pmd/uparrow2_m.png">
+        <span class="hide hidable" style="display: none;">
+            Show/Hide tables list        </span>
+    </a>
+    <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="toggleFullscreen" class="M_butt">
+        <img title="View in fullscreen" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/viewInFullscreen.png.download" data-enter="./themes/pmahomme/img/pmd/viewInFullscreen.png" data-exit="./themes/pmahomme/img/pmd/exitFullscreen.png">
+        <span class="hide hidable" data-exit="Exit fullscreen" data-enter="View in fullscreen" style="display: none;">
+            View in fullscreen        </span>
+    </a>
+            <a id="newPage" href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" class="M_butt">
+            <img title="New page" alt="" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/page_add.png.download">
+            <span class="hide hidable" style="display: none;">
+                New page            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="editPage" class="M_butt ajax">
+            <img title="Open page" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/page_edit.png.download">
+            <span class="hide hidable" style="display: none;">
+                Open page            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="savePos" class="M_butt">
+            <img title="Save page" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/save.png.download">
+            <span class="hide hidable" style="display: none;">
+                Save page            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="SaveAs" class="M_butt ajax">
+            <img title="Save page as" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/save_as.png.download">
+            <span class="hide hidable" style="display: none;">
+                Save page as            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="delPages" class="M_butt ajax">
+            <img title="Delete pages" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/page_delete.png.download">
+            <span class="hide hidable" style="display: none;">
+                Delete pages            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="StartTableNew" class="M_butt">
+            <img title="Create table" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/table.png.download">
+            <span class="hide hidable" style="display: none;">
+                Create table            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" class="M_butt" id="rel_button">
+            <img title="Create relation" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/relation.png.download">
+            <span class="hide hidable" style="display: none;">
+                Create relation            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" class="M_butt" id="display_field_button">
+            <img title="Choose column to display" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/display_field.png.download">
+            <span class="hide hidable" style="display: none;">
+                Choose column to display            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="reloadPage" class="M_butt">
+            <img title="Reload" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/reload.png.download">
+            <span class="hide hidable" style="display: none;">
+                Reload            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/doc/html/faq.html#faq6-31" target="documentation" class="M_butt">
+            <img title="Help" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/help.png.download">
+            <span class="hide hidable" style="display: none;">
+                Help            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" class="M_butt" id="angular_direct_button">
+        <img title="Angular links / Direct links" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/ang_direct.png.download">
+        <span class="hide hidable" style="display: none;">
+            Angular links / Direct links        </span>
+    </a>
+    <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" class="M_butt" id="grid_button">
+        <img title="Snap to grid" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/grid.png.download">
+        <span class="hide hidable" style="display: none;">
+            Snap to grid        </span>
+    </a>
+    <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" class="M_butt" id="key_SB_all">
+        <img title="Small/Big All" alt="v" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/downarrow1.png.download" data-down="./themes/pmahomme/img/pmd/downarrow1.png" data-right="./themes/pmahomme/img/pmd/rightarrow1.png">
+        <span class="hide hidable" style="display: none;">
+            Small/Big All        </span>
+    </a>
+    <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="SmallTabInvert" class="M_butt">
+        <img title="Toggle small/big" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/bottom.png.download">
+        <span class="hide hidable" style="display: none;">
+            Toggle small/big        </span>
+    </a>
+    <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="relLineInvert" class="M_butt_Selected_down">
+        <img title="Toggle relation lines" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/toggle_lines.png.download">
+        <span class="hide hidable" style="display: none;">
+            Toggle relation lines        </span>
+    </a>
+            <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="exportPages" class="M_butt">
+            <img title="Export schema" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/export.png.download">
+            <span class="hide hidable" style="display: none;">
+                Export schema            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" class="M_butt" id="key_Left_Right">
+        <img title="Move Menu" alt="&gt;" data-right="./themes/pmahomme/img/pmd/2leftarrow_m.png" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/2rightarrow_m.png.download">
+        <span class="hide hidable" style="display: none;">
+            Move Menu        </span>
+    </a>
+    <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" class="M_butt" id="pin_Text">
+        <img title="Pin text" alt="&gt;" data-right="./themes/pmahomme/img/pmd/anchor.png" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/anchor.png.download">
+        <span class="hide hidable" style="display: none;">
+            Pin text        </span>
+    </a>
+</div><div id="canvas_outer"><form action="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" id="container-form" method="post" name="form1"><div id="osn_tab" style="width: 980px; height: 541px;">
+    <canvas class="pmd" id="canvas" width="977" height="538"></canvas>
+</div><div id="layer_menu" style="display: none; top: -1000px;">
+    <div class="center">
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" class="M_butt" target="_self">
+            <img title="Hide/Show all" alt="v" id="key_HS_all" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/downarrow1.png.download" data-down="./themes/pmahomme/img/pmd/downarrow1.png" data-right="./themes/pmahomme/img/pmd/rightarrow1.png">
+        </a>
+        <a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" class="M_butt" target="_self">
+            <img alt="v" id="key_HS" title="Hide/Show Tables with no relation" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/downarrow2.png.download" data-down="./themes/pmahomme/img/pmd/downarrow2.png" data-right="./themes/pmahomme/img/pmd/rightarrow2.png">
+        </a>
+    </div>
+    <div id="id_scroll_tab" class="scroll_tab">
+        <table width="100%" style="padding-left: 3px;">
+                            <tbody><tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="assignedclasses" class="scroll_tab_struct" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec.png.download">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_primary_school_management.assignedclasses" style="margin:0;" type="checkbox" value="primary_school_management.assignedclasses">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="primary_school_management.assignedclasses">
+                        primary_school_management.assignedclasses                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="classsubject" class="scroll_tab_struct" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec.png.download">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_primary_school_management.classsubject" style="margin:0;" type="checkbox" value="primary_school_management.classsubject">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="primary_school_management.classsubject">
+                        primary_school_management.classsubject                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="login" class="scroll_tab_struct" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec.png.download">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_primary_school_management.login" style="margin:0;" type="checkbox" value="primary_school_management.login">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="primary_school_management.login">
+                        primary_school_management.login                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="marks" class="scroll_tab_struct" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec.png.download">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_primary_school_management.marks" style="margin:0;" type="checkbox" value="primary_school_management.marks">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="primary_school_management.marks">
+                        primary_school_management.marks                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="result" class="scroll_tab_struct" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec.png.download">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_primary_school_management.result" style="margin:0;" type="checkbox" value="primary_school_management.result">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="primary_school_management.result">
+                        primary_school_management.result                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="student" class="scroll_tab_struct" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec.png.download">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_primary_school_management.student" style="margin:0;" type="checkbox" value="primary_school_management.student">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="primary_school_management.student">
+                        primary_school_management.student                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="teacher" class="scroll_tab_struct" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec.png.download">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_primary_school_management.teacher" style="margin:0;" type="checkbox" value="primary_school_management.teacher">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="primary_school_management.teacher">
+                        primary_school_management.teacher                    </td>
+                </tr>
+                    </tbody></table>
+    </div>
+    <!-- end id_scroll_tab -->
+    <div class="center">
+        Number of tables: 7    </div>
+    <div id="layer_menu_sizer" onmousedown="layer_menu_cur_click=1">
+        <div class="floatleft">
+            <img class="icon" data-right="./themes/pmahomme/img/pmd/resizeright.png" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/resize.png.download">
+        </div>
+    </div>
+</div>
+<!-- end layer_menu -->    <input name="t_x[primary_school_management.assignedclasses]" type="hidden" id="t_x_primary_school_management.assignedclasses_">
+    <input name="t_y[primary_school_management.assignedclasses]" type="hidden" id="t_y_primary_school_management.assignedclasses_">
+    <input name="t_v[primary_school_management.assignedclasses]" type="hidden" id="t_v_primary_school_management.assignedclasses_">
+    <input name="t_h[primary_school_management.assignedclasses]" type="hidden" id="t_h_primary_school_management.assignedclasses_">
+    <!-- Why should we put styles here?! -->
+    <table id="primary_school_management.assignedclasses" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 125px; top: 384px; display: block; z-index: 1;">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_primary_school_management.assignedclasses" table_name="primary_school_management.assignedclasses" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="assignedclasses" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec_small.png.download" title="See table structure">
+                </td>
+                <td id="id_zag_primary_school_management.assignedclasses" class="tab_zag nowrap tab_zag_noquery" onmousedown="cur_click=document.getElementById(&#39;primary_school_management.assignedclasses&#39;);" table_name="primary_school_management.assignedclasses" query_set="0">
+                    <span class="owner">
+                        primary_school_management                    </span>
+                    assignedclasses                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_primary_school_management.assignedclasses" style="">
+                            <tr id="id_tr_assignedclasses.ID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="assignedclasses,ID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.assignedclasses.ID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/FieldKey_small.png.download" alt="*">
+                                                        ID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_assignedclasses.TeacherID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="assignedclasses,TeacherID,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.assignedclasses.TeacherID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_int.png.download" alt="*">
+                                                        TeacherID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_assignedclasses.ClassSubjectID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="assignedclasses,ClassSubjectID,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.assignedclasses.ClassSubjectID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_int.png.download" alt="*">
+                                                        ClassSubjectID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_assignedclasses.Session" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="assignedclasses,Session,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.assignedclasses.Session">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_date.png.download" alt="*">
+                                                        Session : year(4)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[primary_school_management.classsubject]" type="hidden" id="t_x_primary_school_management.classsubject_">
+    <input name="t_y[primary_school_management.classsubject]" type="hidden" id="t_y_primary_school_management.classsubject_">
+    <input name="t_v[primary_school_management.classsubject]" type="hidden" id="t_v_primary_school_management.classsubject_">
+    <input name="t_h[primary_school_management.classsubject]" type="hidden" id="t_h_primary_school_management.classsubject_">
+    <!-- Why should we put styles here?! -->
+    <table id="primary_school_management.classsubject" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 200px; top: 175px; display: block; z-index: 1;">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_primary_school_management.classsubject" table_name="primary_school_management.classsubject" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="classsubject" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec_small.png.download" title="See table structure">
+                </td>
+                <td id="id_zag_primary_school_management.classsubject" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;primary_school_management.classsubject&#39;);" table_name="primary_school_management.classsubject" query_set="0">
+                    <span class="owner">
+                        primary_school_management                    </span>
+                    classsubject                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_primary_school_management.classsubject" style="">
+                            <tr id="id_tr_classsubject.ID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="classsubject,ID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.classsubject.ID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/FieldKey_small.png.download" alt="*">
+                                                        ID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_classsubject.Class" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="classsubject,Class,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.classsubject.Class">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_int.png.download" alt="*">
+                                                        Class : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_classsubject.Subject" class="tab_field_2" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="classsubject,Subject,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.classsubject.Subject">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Subject : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[primary_school_management.login]" type="hidden" id="t_x_primary_school_management.login_">
+    <input name="t_y[primary_school_management.login]" type="hidden" id="t_y_primary_school_management.login_">
+    <input name="t_v[primary_school_management.login]" type="hidden" id="t_v_primary_school_management.login_">
+    <input name="t_h[primary_school_management.login]" type="hidden" id="t_h_primary_school_management.login_">
+    <!-- Why should we put styles here?! -->
+    <table id="primary_school_management.login" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 669px; top: 191px; display: block; z-index: 1;">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_primary_school_management.login" table_name="primary_school_management.login" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="login" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec_small.png.download" title="See table structure">
+                </td>
+                <td id="id_zag_primary_school_management.login" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;primary_school_management.login&#39;);" table_name="primary_school_management.login" query_set="0">
+                    <span class="owner">
+                        primary_school_management                    </span>
+                    login                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_primary_school_management.login" style="">
+                            <tr id="id_tr_login.ID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="login,ID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.login.ID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/FieldKey_small.png.download" alt="*">
+                                                        ID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_login.Username" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="login,Username,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.login.Username">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Username : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_login.Password" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="login,Password,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.login.Password">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Password : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_login.TeacherID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="login,TeacherID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.login.TeacherID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_int.png.download" alt="*">
+                                                        TeacherID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[primary_school_management.marks]" type="hidden" id="t_x_primary_school_management.marks_">
+    <input name="t_y[primary_school_management.marks]" type="hidden" id="t_y_primary_school_management.marks_">
+    <input name="t_v[primary_school_management.marks]" type="hidden" id="t_v_primary_school_management.marks_">
+    <input name="t_h[primary_school_management.marks]" type="hidden" id="t_h_primary_school_management.marks_">
+    <!-- Why should we put styles here?! -->
+    <table id="primary_school_management.marks" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 683px; top: 264px; display: block; z-index: 1;">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_primary_school_management.marks" table_name="primary_school_management.marks" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="marks" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec_small.png.download" title="See table structure">
+                </td>
+                <td id="id_zag_primary_school_management.marks" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;primary_school_management.marks&#39;);" table_name="primary_school_management.marks" query_set="0">
+                    <span class="owner">
+                        primary_school_management                    </span>
+                    marks                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_primary_school_management.marks" style="">
+                            <tr id="id_tr_marks.ID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="marks,ID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.marks.ID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/FieldKey_small.png.download" alt="*">
+                                                        ID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_marks.ClassSubjectID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="marks,ClassSubjectID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.marks.ClassSubjectID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_int.png.download" alt="*">
+                                                        ClassSubjectID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_marks.StudentID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="marks,StudentID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.marks.StudentID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_int.png.download" alt="*">
+                                                        StudentID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[primary_school_management.result]" type="hidden" id="t_x_primary_school_management.result_">
+    <input name="t_y[primary_school_management.result]" type="hidden" id="t_y_primary_school_management.result_">
+    <input name="t_v[primary_school_management.result]" type="hidden" id="t_v_primary_school_management.result_">
+    <input name="t_h[primary_school_management.result]" type="hidden" id="t_h_primary_school_management.result_">
+    <!-- Why should we put styles here?! -->
+    <table id="primary_school_management.result" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 471px; top: 262px; display: block; z-index: 1;">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_primary_school_management.result" table_name="primary_school_management.result" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="result" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec_small.png.download" title="See table structure">
+                </td>
+                <td id="id_zag_primary_school_management.result" class="tab_zag nowrap tab_zag_noquery" onmousedown="cur_click=document.getElementById(&#39;primary_school_management.result&#39;);" table_name="primary_school_management.result" query_set="0">
+                    <span class="owner">
+                        primary_school_management                    </span>
+                    result                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_primary_school_management.result" style="">
+                            <tr id="id_tr_result.ID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="result,ID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.result.ID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/FieldKey_small.png.download" alt="*">
+                                                        ID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_result.MarksID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="result,MarksID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.result.MarksID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_int.png.download" alt="*">
+                                                        MarksID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[primary_school_management.student]" type="hidden" id="t_x_primary_school_management.student_">
+    <input name="t_y[primary_school_management.student]" type="hidden" id="t_y_primary_school_management.student_">
+    <input name="t_v[primary_school_management.student]" type="hidden" id="t_v_primary_school_management.student_">
+    <input name="t_h[primary_school_management.student]" type="hidden" id="t_h_primary_school_management.student_">
+    <!-- Why should we put styles here?! -->
+    <table id="primary_school_management.student" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 456px; top: 286px; display: block; z-index: 1;">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_primary_school_management.student" table_name="primary_school_management.student" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="student" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec_small.png.download" title="See table structure">
+                </td>
+                <td id="id_zag_primary_school_management.student" class="tab_zag nowrap tab_zag_noquery" onmousedown="cur_click=document.getElementById(&#39;primary_school_management.student&#39;);" table_name="primary_school_management.student" query_set="0">
+                    <span class="owner">
+                        primary_school_management                    </span>
+                    student                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_primary_school_management.student" style="">
+                            <tr id="id_tr_student.ID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="student,ID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.student.ID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/FieldKey_small.png.download" alt="*">
+                                                        ID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_student.Name" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="student,Name,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.student.Name">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Name : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_student.Father%27s_Name" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="student,Father%27s_Name,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.student.Father%27s_Name">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Father's_Name : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_student.Mother%27s_Name" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="student,Mother%27s_Name,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.student.Mother%27s_Name">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Mother's_Name : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[primary_school_management.teacher]" type="hidden" id="t_x_primary_school_management.teacher_">
+    <input name="t_y[primary_school_management.teacher]" type="hidden" id="t_y_primary_school_management.teacher_">
+    <input name="t_v[primary_school_management.teacher]" type="hidden" id="t_v_primary_school_management.teacher_">
+    <input name="t_h[primary_school_management.teacher]" type="hidden" id="t_h_primary_school_management.teacher_">
+    <!-- Why should we put styles here?! -->
+    <table id="primary_school_management.teacher" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 396px; top: 210px; display: block; z-index: 1;">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_primary_school_management.teacher" table_name="primary_school_management.teacher" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="teacher" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/exec_small.png.download" title="See table structure">
+                </td>
+                <td id="id_zag_primary_school_management.teacher" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;primary_school_management.teacher&#39;);" table_name="primary_school_management.teacher" query_set="0">
+                    <span class="owner">
+                        primary_school_management                    </span>
+                    teacher                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_primary_school_management.teacher" style="">
+                            <tr id="id_tr_teacher.ID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="teacher,ID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.teacher.ID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/FieldKey_small.png.download" alt="*">
+                                                        ID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_teacher.Full_Name" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="teacher,Full_Name,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.teacher.Full_Name">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Full_Name : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_teacher.Address" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="teacher,Address,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.teacher.Address">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Address : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_teacher.Phone_Number" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="teacher,Phone_Number,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.teacher.Phone_Number">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Phone_Number : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_teacher.Email" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="teacher,Email,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.teacher.Email">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Email : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_teacher.Role" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="teacher,Role,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.teacher.Role">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Role : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_teacher.DOB" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="teacher,DOB,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.teacher.DOB">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_date.png.download" alt="*">
+                                                        DOB : date                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_teacher.Sex" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="teacher,Sex,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.teacher.Sex">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_char.png.download" alt="*">
+                                                        Sex : varchar(50)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_teacher.Job_Starting_Date" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="teacher,Job_Starting_Date,0">
+                                        <td width="10px" colspan="3" id="primary_school_management.teacher.Job_Starting_Date">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_date.png.download" alt="*">
+                                                        Job_Starting_Date : date                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_teacher.ClassSubjectID" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="teacher,ClassSubjectID,1">
+                                        <td width="10px" colspan="3" id="primary_school_management.teacher.ClassSubjectID">
+                        <div class="nowrap">
+                                                            <img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/Field_small_int.png.download" alt="*">
+                                                        ClassSubjectID : int(11)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+</form></div><div id="pmd_hint"></div><table id="layer_new_relation" style="display:none;" width="5%" cellpadding="0" cellspacing="0">
+    <tbody>
+        <tr>
+            <td class="frams1" width="10px">
+            </td>
+            <td class="frams5" width="99%">
+            </td>
+            <td class="frams2" width="10px">
+                <div class="bor">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="frams8">
+            </td>
+            <td class="input_tab">
+                <table width="168" class="center" cellpadding="2" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <td colspan="2" class="center nowrap">
+                                <strong>
+                                    Create relation                                </strong>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody id="foreign_relation">
+                        <tr>
+                            <td colspan="2" class="center nowrap">
+                                <strong>
+                                    FOREIGN KEY
+                                </strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="58" class="nowrap">
+                                on delete
+                            </td>
+                            <td width="102">
+                                <select name="on_delete" id="on_delete">
+                                    <option value="nix" selected="selected">
+                                        --
+                                    </option>
+                                    <option value="CASCADE">
+                                        CASCADE
+                                    </option>
+                                    <option value="SET NULL">
+                                        SET NULL
+                                    </option>
+                                    <option value="NO ACTION">
+                                        NO ACTION
+                                    </option>
+                                    <option value="RESTRICT">
+                                        RESTRICT
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="nowrap">
+                                on update
+                            </td>
+                            <td>
+                                <select name="on_update" id="on_update">
+                                    <option value="nix" selected="selected">
+                                        --
+                                    </option>
+                                    <option value="CASCADE">
+                                        CASCADE
+                                    </option>
+                                    <option value="SET NULL">
+                                        SET NULL
+                                    </option>
+                                    <option value="NO ACTION">
+                                        NO ACTION
+                                    </option>
+                                    <option value="RESTRICT">
+                                        RESTRICT
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="center nowrap">
+                                <input type="button" id="ok_new_rel_panel" class="butt" name="Button" value="OK">
+                                <input type="button" id="cancel_new_rel_panel" class="butt" name="Button" value="Cancel">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+            <td class="frams6">
+            </td>
+        </tr>
+        <tr>
+            <td class="frams4">
+                <div class="bor">
+                </div>
+            </td>
+            <td class="frams7">
+            </td>
+            <td class="frams3">
+            </td>
+        </tr>
+    </tbody>
+</table><table id="layer_upd_relation" style="display:none;" width="5%" cellpadding="0" cellspacing="0">
+    <tbody>
+        <tr>
+            <td class="frams1" width="10px">
+            </td>
+            <td class="frams5" width="99%">
+            </td>
+            <td class="frams2" width="10px">
+                <div class="bor">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="frams8">
+            </td>
+            <td class="input_tab">
+                <table width="100%" class="center" cellpadding="2" cellspacing="0">
+                    <tbody><tr>
+                        <td colspan="3" class="center nowrap">
+                            <strong>
+                                Delete relation                            </strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="center nowrap">
+                            <input id="del_button" name="Button" type="button" class="butt" value="Delete">
+                            <input id="cancel_button" type="button" class="butt" name="Button" value="Cancel">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+            <td class="frams6">
+            </td>
+        </tr>
+        <tr>
+            <td class="frams4">
+                <div class="bor">
+                </div>
+            </td>
+            <td class="frams7">
+            </td>
+            <td class="frams3">
+            </td>
+        </tr>
+    </tbody>
+</table><div id="PMA_disable_floating_menubar"></div></div><div id="selflink" class="print_ignore" style="display: none;"><a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;table=&amp;server=1&amp;target=&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c" title="Open new phpMyAdmin window" target="_blank"><img src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" title="Open new phpMyAdmin window" alt="Open new phpMyAdmin window" class="icon ic_window-new"></a></div><div style="position:fixed;bottom:0;left:0;right:0;margin:0;z-index:1000" class="error" id="error_notification"><img alt="" title="" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" class="icon ic_s_error">A fatal JavaScript error has occurred. Would you like to send an error report?<div class="floatright"><button id="show_error_report">Show report details</button><a id="change_error_settings"><img alt="Change report settings" title="Change report settings" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" class="icon ic_s_cog"></a><a href="http://localhost/phpmyadmin/db_designer.php?db=primary_school_management&amp;token=4e6fb65df2a9ec466e77a9a9bb721f0c#" id="ignore_error"><img alt="Ignore" title="Ignore" src="./localhost _ Local Databases _ primary_school_management _ phpMyAdmin 4.6.4_files/dot.gif.download" class="icon ic_b_close"></a></div></div></body></html>

@@ -1,0 +1,30 @@
+clc;
+c=imread('c.jpg');
+a1=imread('a1.jpg');
+a2=imread('a2.jpg');
+b=imread('b.jpg');
+a=imread('a.jpg');
+p=imread('p.jpg');
+subplot(2,3,4);
+imshow(c);
+%title('Msum_c');
+subplot(2,3,1);
+imshow(a1);
+%title('Masum_a1');
+subplot(2,3,3);
+imshow(b);
+%title('Msum_b');
+subplot(2,3,2);
+imshow(a2);
+%title('Msum_a2');
+subplot(2,3,5);
+imshow(a);
+%title('Msum_a');
+subplot(2,3,6);
+imshow(p);
+%title('Msum_p');
+L = superpixels(c,100);
+mask = boundarymask(L);
+%figure
+imshow(mask,'InitialMagnification',67);
+

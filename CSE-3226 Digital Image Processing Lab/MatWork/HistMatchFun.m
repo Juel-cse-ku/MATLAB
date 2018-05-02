@@ -1,0 +1,15 @@
+clc;
+im1=imread('Fig0323.tif');
+%im2=imread('Fig0320(3).tif');
+im2=imread('ref.tif');
+im2 = rgb2gray(im2);
+B = imhistmatch(im1,im2);
+subplot(2,2,1);
+imhist(im1);title('Original Histogram');
+subplot(2,2,2);
+imhist(im2);title('Target Histogram');
+subplot(2,2,3);
+imshow(B);title('Histogram Matching image');
+subplot(2,2,4);
+imhist(B);title('Matched image Histogram');
+imwrite(B,'MatchedFun.jpg','jpg');
